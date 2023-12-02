@@ -1,28 +1,95 @@
-*{
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-color: black;
-    border: 1px solid;
-
+* {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    max-height:200px;
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
+header {
+	max-height: 200px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
-.logo{
-    display:flex ;
-    max-width: 150px;
-    max-height: 150px;
-    border: 2px solid;
+.logo {
+	max-width: 150px;
+	max-height: 150px;
+	padding: 1.25%;
+	height: 7.3vw;
 }
-.contactLogo{
-    display:flex ;
-    max-width:  40px;
-    max-height: 40px;
-    margin: 0.12%;
-    padding: 0.12%;
-    border: 2px solid;
+.contactLogo {
+	max-width: 40px;
+	max-height: 40px;
+	margin: 12%;
+	padding: 12%;
+	justify-items: center;
+}
+.logoSpace {
+	padding: 2%;
+}
+
+.contacts {
+	display: flex;
+	min-width: 25vw;
+	align-self: center;
+	color: white;
+}
+.contacts h2 {
+	padding-top: 5px;
+	padding-left: 50px;
+}
+nav {
+	align-self: center;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+	padding: 1.25%;
+	margin: 1.25%;
+	border-radius: 5px;
+}
+
+.currentPage {
+	color: #6556bf;
+}
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10%;
+	background-image: url(imageFiles/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+main {
+	position: relative;
+	width: 30%;
+	height: 80%;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.9);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.picOfMe {
+	margin-top: 5%;
+	width: 40%;
+	height: 40%;
+	border-radius: 50%;
+	justify-self: center;
+	border: solid 1px;
+}
+main h1 {
+	width: 100%;
+	text-align: center;
+}
+
+me.h2 {
+	text-align: center;
 }
